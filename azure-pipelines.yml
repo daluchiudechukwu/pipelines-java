@@ -2,9 +2,9 @@ trigger:
         - main
 
         pool:
-          vmImage: 'ubuntu-latest'
+          vmImage: ubuntu-latest
         variables:
-          imageName: 'demo-pipelines-docker'
+          imageName: demo-pipelines-docker
 
         steps:
         - task: Docker@2
